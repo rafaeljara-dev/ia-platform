@@ -10,8 +10,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Prometheus AI",
-  description: "An AI platform.",
+  title: "",
+  description: "",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <body className={inter.className}>
           <ModalProvider />
           <ToasterProvider />
-          <CrispProvider />
+          {/* <CrispProvider /> */}
           {children}
         </body>
       </html>
