@@ -51,6 +51,7 @@
     "prisma": "^5.20.0"
   },
   "overrides": {
-    "js-cookie@3": "^3.0.7"
+    "js-cookie@3": "^3.0.7",
+    "postcss": "$postcss"
   }
 }
